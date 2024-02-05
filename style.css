@@ -1,0 +1,193 @@
+body{
+    background-color: rgb(22, 22, 22);
+    margin: 0;
+}
+.topmenu{
+    margin: 0;
+    padding-right: 9%;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    display: flex;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: end;
+    background-color: white;
+}
+.menutext{
+    border-right: 0.5px solid black;
+}
+.text{
+    padding: 0px 10px;
+}
+.text:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.backimg{
+    background-image: url(./items/backimage.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    margin: none;
+    position: relative;
+}
+.logo{
+    display: flex;
+}
+.navtext{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-top: 8px;
+    top: 5%;
+    width: 40%;
+}
+.bartext{
+    color: white;
+    font-size: 20px;
+}
+.navbar{
+    position: absolute;
+    display: flex;
+    padding-left: 10%;
+    width: 90%;
+    top: 4%;
+}
+.navbar:hover{
+    background-color: white;
+    height: 60px;
+    cursor: pointer;
+    transition: .5s;
+}
+.icons{
+    position: absolute;
+    color: white;
+    top: 5%;
+    right: 10%;
+    display: flex;
+}
+.icon{
+    padding-left: 15px;
+    padding-top: 8px;
+}
+.navbar:hover .bartext{
+    color: black;
+}
+.bartext:hover{
+    text-decoration: underline;
+}
+.navbar:hover .icon{
+    color: black;
+}
+.btntop{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 20%;
+    left: 45%;
+}
+.btn1{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px 0px;
+    width: 120px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 10px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    transition: 1.2s;
+}
+.btn1:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+h1 {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+h3{
+    position: absolute;
+    top: 15%;
+    left: 43%;
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.everyday{
+    background-color: rgb(22, 22, 22);
+    padding: 0 130px;
+    position: relative;
+    height: 500px;
+}
+
+.everyday h1{
+    color: white;
+    padding-top: 20px;
+    font-size: 35px;
+    text-align: left;
+}
+p{
+    color: white;
+}
+
+.btnmid{
+    display: flex;
+    justify-content: start;
+    padding-top: 55px;
+}
+.everyday .btn2{
+    border: 1px solid white;
+    border-radius: 8%;
+    color: white;
+    padding: 10px 40px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: 1.2s;
+}
+.everyday img{
+    width: 43%;
+    height: 80%;
+    position: absolute;
+    top: 230px;
+    left: 170px;
+    z-index: 2;
+}
+.everyday video{
+    height: 663px;
+    width: 50%;
+    position: absolute;
+    right: 7%;
+    top: -8%;
+    z-index: 1;
+}
+.step{
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 50px;
+}
+.small{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 50px;
+}
+
+.btnmid {
+    padding-left: 35px;
+}
+.btn2:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
